@@ -35,7 +35,7 @@ async def start(_, message: Message):
                         "📢 Official Channel", url="https://t.me/humangabutguys") 
                   ],[
                     InlineKeyboardButton(
-                        "🍀 Instagram", url="https://t.me/naylaanggitabot"
+                        "🍀 Instagram", url="https://www.instagram.com/ikyyy_35"
                     )
                 ]
             ]
