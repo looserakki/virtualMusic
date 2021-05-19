@@ -554,8 +554,8 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption=f"🍃 **Judul Lagu :** {title}\n**⏱ Durasi Lagu :** {duration}\n" \
-                + f"🌙 **Status Lagu :** Sedang Memutar Lagu-mu!\n🦇 **Permintaan By :** {requested_by}".format(
+        caption=f"🏷  **Name :** {title}\n**⏱ Durasi Lagu :** {duration}\n" \
+                + f"💡 **Status :** Playing\n🎧 **Requested :** {requested_by}".format(
         message.from_user.mention()
         ),
     )
