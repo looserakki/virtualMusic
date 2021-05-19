@@ -202,7 +202,7 @@ def r_ply(type_):
                 
             ],
             [       
-                InlineKeyboardButton("❌ Tutup!",'cls')
+                InlineKeyboardButton("❌ Close",'cls')
             ]        
         ]
     )
@@ -378,7 +378,7 @@ async def m_cb(b, cb):
                 
                 ],
                 [       
-                    InlineKeyboardButton("❌ Tutup!",'cls')
+                    InlineKeyboardButton("❌ Close",'cls')
                 ]        
             ]
         )
@@ -458,7 +458,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>❌ EMERGENCY NOT FOUND 404! \nAssistant Bot tidak dapat bergabung dengan grup Anda karena banyaknya permintaan bergabung untuk bot! Pastikan pengguna tidak dibanned/blokir dalam grup."
-                                  "\n\nAtau tambahkan secara manual @assistencrystal ke Grup Anda dan coba lagi</b>",
+                                  "\n\nAtau tambahkan secara manual @AsisstantMusicVirtual ke Grup Anda dan coba lagi</b>",
                               )
                               pass
     try:
@@ -512,12 +512,12 @@ async def play(_, message: Message):
                 ],                     
                 [
                     InlineKeyboardButton(
-                        "✨ Owner Aku!", url="https://t.me/afterdaytoxic"
+                        "GROUP", url="https://t.me/Familythunder"
                     )
                 ],
                 [       
                     InlineKeyboardButton(
-                        text="❌ Tutup!",
+                        text="❌ Close",
                         callback_data='cls')
 
                 ]                             
@@ -607,7 +607,7 @@ async def deezer(client: Client, message_: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>❌ EMERGENCY NOT FOUND 404! \nAssistant Bot tidak dapat bergabung dengan grup Anda karena banyaknya permintaan bergabung untuk bot! Pastikan pengguna tidak dibanned/blokir dalam grup."
-                                  "\n\nAtau tambahkan secara manual @assistencrystal ke Grup Anda dan coba lagi</b>",
+                                  "\n\nAtau tambahkan secara manual @AsisstantMusicVirtual ke Grup Anda dan coba lagi</b>",
                               )
                               pass
     try:
@@ -648,12 +648,12 @@ async def deezer(client: Client, message_: Message):
                 ],                     
                 [
                     InlineKeyboardButton(
-                        "✨ Owner Aku!", url="https://t.me/afterdaytoxic"
+                        "GROUP", url="https://t.me/Familythunder"
                     )
                 ],
                 [       
                     InlineKeyboardButton(
-                        text="❌ Tutup!",
+                        text="❌ Close",
                         callback_data='cls')
 
                 ]                             
@@ -709,7 +709,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name =  "Crystal Music!"
+        user.first_name =  "Virtual Music!"
     usar = user
     wew = usar.id
     try:
@@ -784,12 +784,12 @@ async def jiosaavn(client: Client, message_: Message):
                 ],                     
                 [
                     InlineKeyboardButton(
-                        "✨ Owner Aku!", url="https://t.me/afterdaytoxic"
+                        "GROUP", url="https://t.me/Familythunder"
                     )
                 ],
                 [       
                     InlineKeyboardButton(
-                        text="❌ Tutup!",
+                        text="❌ Close",
                         callback_data='cls')
 
                 ]                             
