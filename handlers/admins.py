@@ -56,7 +56,7 @@ async def pause(_, message: Message):
         await message.reply_text("❗ Tidak ada Lagu yang sedang diputar!")
     else:
         callsmusic.pytgcalls.pause_stream(message.chat.id)
-        await message.reply_text("▶️ Lagu Kamu Di-Paused!")
+        await message.reply_text("▶️ Lagu Di-Paused!")
 
 
 @Client.on_message(command("resume") & other_filters)
@@ -71,7 +71,7 @@ async def resume(_, message: Message):
         await message.reply_text("❗ Tidak ada Lagu yang sedang dijeda!")
     else:
         callsmusic.pytgcalls.resume_stream(message.chat.id)
-        await message.reply_text("⏸ Lagu Kamu Di-Lanjutkan!")
+        await message.reply_text("⏸ Lagu Di-Lanjutkan!")
 
 
 @Client.on_message(command("end") & other_filters)
@@ -87,7 +87,7 @@ async def stop(_, message: Message):
             pass
 
         callsmusic.pytgcalls.leave_group_call(message.chat.id)
-        await message.reply_text("⏹️ Aku Sudah Berhenti Musik / Di-Stop!")
+        await message.reply_text("⏹️ Musik Di-Stop!")
 
 
 @Client.on_message(command("skip") & other_filters)
