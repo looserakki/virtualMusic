@@ -6,34 +6,36 @@ from config import BOT_NAME as bn
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""<b>ꃅꍏꀤꀤ ꁅꀎꌩꌗ 👋🏻🦇 {message.from_user.first_name} Perkenalkan Aku 𓊈ᴄʀʏꜱᴛᴀʟ ᴍᴜꜱɪᴄ𓊉\n
-𝐀𝐤𝐮 𝐚𝐝𝐚𝐥𝐚𝐡 𝐁𝐨𝐭 𝐌𝐮𝐬𝐢𝐤 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦, 𝐀𝐩𝐚𝐛𝐢𝐥𝐚 𝐈𝐧𝐠𝐢𝐧 𝐌𝐞𝐧𝐠𝐠𝐮𝐧𝐚𝐤𝐚𝐧 𝐀𝐤𝐮 𝐈𝐧𝐯𝐢𝐭𝐞 𝐀𝐤𝐮 𝐃𝐚𝐧 𝐀𝐬𝐬𝐢𝐬𝐭𝐞𝐧 𝐀𝐤𝐮 𝐘𝐚 𝐁𝐢𝐚𝐫 𝐁𝐞𝐫𝐣𝐚𝐥𝐚𝐧 𝐃𝐞𝐧𝐠𝐚𝐧 𝐋𝐚𝐧𝐜𝐚𝐫.
-𝐀𝐩𝐚𝐛𝐢𝐥𝐚 𝐀𝐝𝐚 𝐊𝐞𝐧𝐝𝐚𝐥𝐚 𝐓𝐢𝐝𝐚𝐤 𝐓𝐚𝐮 𝐂𝐚𝐫𝐚 𝐏𝐚𝐤𝐚𝐢𝐧𝐲𝐚 𝐁𝐢𝐬𝐚 𝐏𝐂 𝐎𝐖𝐍𝐄𝐑 𝐀𝐊𝐔!:))
+        f"""<b>Haii.. 👋🏻 {message.from_user.first_name} Welcome To 𓊈Virtual Music𓊉\n
+𝘈𝘒𝘜 𝘈𝘋𝘈𝘓𝘈𝘏 𝘉𝘖𝘛 𝘔𝘜𝘚𝘐𝘒 𝘛𝘌𝘓𝘌𝘎𝘙𝘈𝘔 𝘠𝘈𝘕𝘎 𝘋𝘐 𝘒𝘌𝘔𝘉𝘈𝘕𝘎𝘒𝘈𝘕 𝘖𝘓𝘌𝘏 : 
+
+𝘈𝘗𝘈𝘉𝘐𝘓𝘈 𝘐𝘕𝘎𝘐𝘕 𝘔𝘌𝘕𝘎𝘎𝘜𝘕𝘈𝘒𝘈𝘕 𝘈𝘒𝘜 𝘐𝘕𝘝𝘐𝘛𝘌 𝘈𝘒𝘜 𝘋𝘈𝘕 𝘈𝘚𝘐𝘚𝘚𝘛𝘈𝘕𝘛 𝘕𝘠𝘈 𝘓𝘈𝘓𝘜 𝘑𝘈𝘋𝘐𝘒𝘈𝘕 𝘈𝘋𝘔𝘐𝘕 𝘒𝘌𝘋𝘜𝘈𝘕𝘠𝘈 𝘈𝘎𝘈𝘙 𝘉𝘐𝘚𝘈 𝘉𝘌𝘙𝘑𝘈𝘓𝘈𝘕 𝘋𝘌𝘕𝘎𝘈𝘕 𝘓𝘈𝘕𝘊𝘈𝘙, 𝘑𝘐𝘒𝘈 𝘈𝘋𝘈 𝘒𝘌𝘕𝘋𝘈𝘓𝘈 𝘉𝘐𝘚𝘈 𝘊𝘏𝘈𝘛 𝘖𝘞𝘕𝘌𝘙𝘕𝘠𝘈.
 ┏━━━━━━━━━━━━━━
 ┣ > 𝙼𝚎𝚖𝚞𝚝𝚊𝚛 𝚖𝚞𝚜𝚒𝚔 𝚍𝚒𝚐𝚛𝚞𝚙 𝚔𝚊𝚖𝚞.
 ┣ > 𝙱𝚒𝚜𝚊 𝚕𝚒𝚜𝚝 𝚕𝚊𝚐𝚞, 𝚌𝚞𝚖𝚊𝚗 𝚓𝚊𝚗𝚐𝚊𝚗 𝚜𝚎𝚔𝚊𝚕𝚒𝚐𝚞𝚜 𝚝𝚊𝚔𝚞𝚝 𝚎𝚛𝚛𝚘𝚛.
 ┣ > 𝙼𝚎𝚗𝚌𝚊𝚛𝚒 𝚍𝚊𝚗 𝚖𝚎𝚖𝚞𝚕𝚊𝚒 𝚕𝚊𝚐𝚞 𝚋𝚎𝚛𝚜𝚊𝚖𝚊 𝚝𝚎𝚖𝚊𝚗-𝚝𝚎𝚖𝚊𝚗𝚖𝚞.
 ┣ > 𝙼𝚎𝚗𝚌𝚊𝚛𝚒 𝚕𝚊𝚐𝚞 𝚔𝚊𝚖𝚞 𝚍𝚊𝚗 𝚍𝚘𝚠𝚗𝚕𝚘𝚊𝚍 𝚕𝚊𝚐𝚞 𝚔𝚊𝚖𝚞 𝚖𝚎𝚕𝚊𝚕𝚞𝚒 𝚊𝚔𝚞.
 ┗━━━━━━━━━━━━━━
-❃ 𝓜𝓪𝓷𝓪𝓰𝓮𝓶𝓮𝓷𝓽 𝓦𝓲𝓽𝓱 🦇 𝓑𝔂 : [Afterday](https://t.me/afterdaytoxic)
-❃ 𝓣𝓱𝓪𝓷𝓴𝓼 𝓣𝓸 : [Grup Support](https://t.me/humangabutguys)
-━━━━━━━━━━━━━━━
-𝐁𝐨𝐭 𝐌𝐮𝐬𝐢𝐤 𝐀𝐤𝐮 : @crystalisticbot - 𝐀𝐬𝐬𝐢𝐬𝐭𝐞𝐧 𝐌𝐮𝐬𝐢𝐤 : @assistencrystal
+🤵𝓒𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝔂 : [loveMe](https://t.me/boyfriendnice)
+☘️𝓣𝓱𝓪𝓷𝓴𝓼 𝓯𝓸𝓻 : [Grup Support](https://t.me/remaja_virtual62)
+━━━━━━━━━━━━━━
+𝐁𝐎𝐓 𝐌𝐔𝐒𝐈𝐊 : @virtualsongbot - 𝐀𝐒𝐈𝐒𝐒𝐓𝐀𝐍𝐓 𝐌𝐔𝐒𝐈𝐊 : @AsisstantMusicVirtual
+ 
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "⚡ Owner Aku!", url="https://t.me/afterdaytoxic")
+                        "🤵Owner Music", url="https://t.me/afterdaytoxic")
                   ],[
                     InlineKeyboardButton(
-                        "🍃 Channel Aku!", url="https://t.me/captionanakmuda"
+                        "👥Official Group", url="https://t.me/captionanakmuda"
                     ),
                     InlineKeyboardButton(
-                        "❤️ Grup Aku!", url="https://t.me/humangabutguys") 
+                        "📢 Official Channel", url="https://t.me/humangabutguys") 
                   ],[
                     InlineKeyboardButton(
-                        "👸 My Bot Help!", url="https://t.me/naylaanggitabot"
+                        "🍀 Instagram", url="https://t.me/naylaanggitabot"
                     )
                 ]
             ]
@@ -48,7 +50,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🦇 Owner Aku!", url="https://t.me/afterdaytoxic"
+                        "🤵 Owner Music", url="https://t.me/afterdaytoxic"
                     )
                 ],[
                     InlineKeyboardButton(
