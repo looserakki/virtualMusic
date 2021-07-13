@@ -32,7 +32,7 @@ async def addchannel(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>Tambahkan saya sebagai admin grup Anda terlebih dahulu</b>",
+            "<b>assistant just joined your group</b>",
         )
         return
 
@@ -52,12 +52,11 @@ async def addchannel(client, message):
     except Exception as e:
         print(e)
         await message.reply_text(
-            f"<b>❌ EMERGENCY NOT FOUND 404! \n Assistant {user.first_name} tidak dapat bergabung dengan grup Anda karena banyaknya permintaan bergabung untuk bot!, Pastikan pengguna tidak dibanned/blokir dalam grup."
-            "\n\nAtau tambahkan secara manual @assistencrystal ke Grup Anda dan coba lagi</b>",
+            f"<b>❌ EMERGENCY NOT FOUND 404! \n Assistant {user.first_name} not found manually add @patriciaXmusic</b>",
         )
         return
     await message.reply_text(
-            "<b>Assisten bot bergabung dengan obrolan Anda</b>",
+            "<b>Assisten bot joined</b>",
         )
     
 @USER.on_message(filters.group & filters.command(["userbotleave"]))
@@ -66,7 +65,6 @@ async def rem(USER, message):
         await USER.leave_chat(message.chat.id)
     except:  
         await message.reply_text(
-            f"<b>Pengguna tidak dapat meninggalkan grup Anda! Mungkin menunggu floodwaits."
-            "\n\nAtau keluarkan saya secara manual dari ke Grup Anda</b>",
+            f"<b>flood wait manually kick assistant</b>",
         )
         return
